@@ -4,8 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "993eb876c02ed575e9bcaa40c8c572a7",
-    "packages": [],
+    "content-hash": "01d16fd3645535aa9b0cf3e2993a022c",
+    "packages": [
+        {
+            "name": "genkgo/favicon",
+            "version": "0.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/genkgo/favicon.git",
+                "reference": "6f33689570e04052ae2644d79913448f70dac2df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/genkgo/favicon/zipball/6f33689570e04052ae2644d79913448f70dac2df",
+                "reference": "6f33689570e04052ae2644d79913448f70dac2df",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-imagick": "*",
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
+            },
+            "bin": [
+                "bin/favicon-generator"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Genkgo\\Favicon\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Generate browser favicons",
+            "support": {
+                "issues": "https://github.com/genkgo/favicon/issues",
+                "source": "https://github.com/genkgo/favicon/tree/0.3.5"
+            },
+            "time": "2025-03-28T16:36:57+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "dflydev/dot-access-data",
@@ -82,47 +124,6 @@
                 "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.3"
             },
             "time": "2024-07-08T12:26:09+00:00"
-        },
-        {
-            "name": "genkgo/favicon",
-            "version": "0.3.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/genkgo/favicon.git",
-                "reference": "360d690887260ad5be91c244ad2ef62d4f570eba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/genkgo/favicon/zipball/360d690887260ad5be91c244ad2ef62d4f570eba",
-                "reference": "360d690887260ad5be91c244ad2ef62d4f570eba",
-                "shasum": ""
-            },
-            "require": {
-                "ext-dom": "*",
-                "ext-imagick": "*",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
-            },
-            "bin": [
-                "bin/favicon-generator"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Genkgo\\Favicon\\": [
-                        "src"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Generate browser favicons",
-            "support": {
-                "issues": "https://github.com/genkgo/favicon/issues",
-                "source": "https://github.com/genkgo/favicon/tree/0.3.6"
-            },
-            "time": "2025-03-28T21:11:33+00:00"
         },
         {
             "name": "league/commonmark",

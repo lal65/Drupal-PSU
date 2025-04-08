@@ -11,5 +11,8 @@
     ],
     "require-dev": {
       "psu-ooe/static-site-generator": "dev-main"
+    },
+    "require": {
+        "genkgo/favicon": "=0.3.5"
     }
 }
