@@ -48,6 +48,9 @@ jobs:
         run: |
           echo "@psu-ooe:registry=https://npm.pkg.github.com" >> vendor/psu-ooe/static-site-generator/.npmrc
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> vendor/psu-ooe/static-site-generator/.npmrc
+      - name: Debug
+        run: cat /home/runner/work/Drupal-PSU/Drupal-PSU/vendor/genkgo/favicon/src/AppleSafariPinGenerator.php
+        shell: bash
       - name: Compile assets
         run: vendor/bin/compile
       - name: Setup Pages
