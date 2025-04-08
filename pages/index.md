@@ -2,20 +2,26 @@
 title: 'Homepage'
 meta:
   robots: 'index, follow'
-  description: 'Welcome to the demo static site homepage.'
-page_subtitle_before: 'Penn State World Campus'
-page_title: 'Welcome to your site!'
-page_subtitle_after: 'Design System Demo'
+  description: 'Welcome to the Penn State Drupal Users Group.'
+page_subtitle_before: 'Penn State'
+page_title: 'Drupal Users Group'
 page_image: 'index.jpg'
 menu_link_title: 'Home'
 ---
 
-The World Campus design system static site generation service is a cutting-edge platform that is dedicated to producing top-of-the-line digital experiences. With a focus on security, performance, accessibility, and on-brand design, this service ensures that every website created is of the highest quality. By using a static site generation approach, websites built with this service are able to load quickly and efficiently, providing a seamless user experience for visitors.
+Drupal.psu.edu highlights the use of the open-source Drupal CMS at Penn State, and serves as the online home of the Penn State Drupal Users Group (DUG), an association of developers, designers, and users who currently leverage the power of Drupal across Penn State.
 
-One of the key benefits of using the World Campus design system static site generation service is its emphasis on security. By following best practices and implementing robust security measures, websites created with this service are protected against potential threats and data breaches. This gives users peace of mind knowing that their personal information is safe and secure when interacting with websites built using this service.
+Drupal.psu.edu is the home for all Drupal happenings at the university and this group is a good way to connect with other Drupal users about their projects. Join us and get involved in your local Drupal community!
 
-Performance is another important aspect of the World Campus design system static site generation service. By optimizing websites for speed and efficiency, users can enjoy fast loading times and smooth navigation. This not only improves the user experience but also helps to boost search engine rankings, as faster websites are favored by search engines like Google.
+## Penn State University Drupal User Group Meeting
+The PSU Drupal User Group meets on the third Tuesday of the month (and/or via Zoom) from 11am to 1pm.  
 
-Accessibility is also a top priority for the World Campus design system static site generation service. By adhering to accessibility standards and guidelines, websites built with this service are inclusive and can be easily accessed by all users, regardless of their abilities. This ensures that everyone can access and interact with the digital experiences created using this service, promoting equality and inclusivity online.
+## During the meeting, we present and share ideas, implementation plans, current projects, web sites, code, roadblocks, successes, and answer questions about Drupal at all levels.
 
-Lastly, the World Campus design system static site generation service helps to maintain a consistent and on-brand design across all digital experiences. By providing a set of design guidelines and templates, websites built using this service can maintain a cohesive and professional look that aligns with the organization's brand identity. This not only creates a seamless user experience but also helps to build brand recognition and credibility online. Overall, the World Campus design system static site generation service is a valuable tool for creating world-class digital experiences that are secure, performant, accessible, and on-brand.
+## PSU DUG Co-working
+Co-working is on a bit of a hiatus, if you are interested in coming please join us on Slack  and let us know.
+
+## Day to Day Communication
+Official meeting announcements and adjustments will appear in the Yammer group , Microsoft Teams , and Slack .
+
+We also have a very active community on Slack - https://psudug.slack.com - if you have a question or want more information, that is a great place to go! Join us there now!
