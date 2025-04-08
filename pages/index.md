@@ -15,8 +15,7 @@ Drupal.psu.edu is the home for all Drupal happenings at the university and this 
 
 ## Penn State University Drupal User Group Meeting
 The PSU Drupal User Group meets on the third Tuesday of the month (and/or via Zoom) from 11am to 1pm.  
-
-## During the meeting, we present and share ideas, implementation plans, current projects, web sites, code, roadblocks, successes, and answer questions about Drupal at all levels.
+During the meeting, we present and share ideas, implementation plans, current projects, web sites, code, roadblocks, successes, and answer questions about Drupal at all levels.
 
 ## PSU DUG Co-working
 Co-working is on a bit of a hiatus, if you are interested in coming please join us on Slack  and let us know.
