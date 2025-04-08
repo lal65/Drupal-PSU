@@ -42,15 +42,15 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.3'
+      - name: Install PHP Image Magick
+        run: sudo apt install php8.3-imagick
+        shell: bash
       - name: Composer install
         uses: "ramsey/composer-install@v2"
       - name: Authenticate with NPM registry
         run: |
           echo "@psu-ooe:registry=https://npm.pkg.github.com" >> vendor/psu-ooe/static-site-generator/.npmrc
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> vendor/psu-ooe/static-site-generator/.npmrc
-      - name: Debug
-        run: cat /home/runner/work/Drupal-PSU/Drupal-PSU/vendor/genkgo/favicon/src/AppleSafariPinGenerator.php
-        shell: bash
       - name: Compile assets
         run: vendor/bin/compile
       - name: Setup Pages
